@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arslan Malik</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://kit.fontawesome.com/7146718ee5.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="home" class="hero">
+      <nav class="nav">
+        <h2 class="logo">Arslan's <span>Portfolio</span></h2>
+        <ul>
+          <li><a href="#home">home</a></li>
+          <li><a href="#about">about Me</a></li>
+          <li><a href="#service">services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#Contact">contact me</a></li>
+        </ul>
+      </nav>
+      <div class="overl" data-aos="zoom-in-up"></div>
+      <div class="content" data-aos="fade-in">
+        <h4>Hello, My name is</h4>
+        <h1>Arslan Malik</h1>
+        <h3>and I am a Full Stack Developer</h3>
+        <div class="newsletter">
+          <form>
+            <input
+              type="email"
+              name="email"
+              id="mail"
+              placeholder="enter your email"
+            />
+            <input type="submit"  name="submit" value="lets start" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img
+              src="images/jordan-whitfield-0DpWFPv2nds-unsplash.jpg"
+              class="ww2"
+              data-aos="zoom-in-down"
+            />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title" data-aos="zoom-in-up">About <span class="meme">Me</span></h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+              quae rem ea, officiis illum voluptas incidunt. Ratione esse
+              aliquid inventore omnis, id, rerum tenetur doloremque veritatis,
+              sapiente numquam asperiores quasi.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Web Development</span><br />Designing Web/App Interfaces</li>
+                <li><span>App Development</span><br />Web App Development</li>
+                <li>
+                  <span>UI/UX Design</span><br />Buidling Android/IOS Apps
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2022 - Current</span><br />Front end Developer at
+                  DropBox
+                </li>
+                <li>
+                  <span>2020 - 2022</span><br />Back end Developer at Fedx
+                  Software company
+                </li>
+                <li>
+                  <span>2018 - 2020</span><br />Internship at Devsinc Pvt Ltd
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2020-2022</span><br />Internship at Google</li>
+                <li>
+                  <span>2018 - 2020</span><br />Masters in Computer Science from
+                  Nust
+                </li>
+                <li>
+                  <span>2014 - 2018</span><br />BSc Computer Science From Nust
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="service" class="service">
+      <div class="title" data-aos="fade-down">
+        <h2>My <span class="meme">Services</span></h2>
+      </div>
+      <div class="box" data-aos="zoom-in-up">
+        <div class="card">
+          <i class="far fa-bell"></i>
+          <h5>Web Development</h5>
+          <div class="pra">
+            <p>
+              Proficient at coding with languages like HTML,
+               CSS, JavaScript for front-end development, and
+                Python, Java, Ruby, and PHP for back-end programming.
+            </p>
+            <p style="text-align: center">
+              <a class="button" href="#about">Read more</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <i class="fas fa-bars"></i>
+          <h5>App Development</h5>
+          <div class="pra">
+            <p>
+              Version Control,
+              Web Development Frameworks,
+              Web Performance Optimization,
+              Testing and Debugging,
+              Security Concepts and 
+              DevOps and Deployment.
+            </p>
+            <p style="text-align: center">
+              <a class="button" href="#about">Read more</a>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <i class="fas fa-bars"></i>
+          <h5>Database Integration</h5>
+          <div class="pra">
+            <p>
+              Proficiency in SQL and database querying languages.
+              Expertise in data integration tools like Talend, or SSIS.
+              Experience with ETL (Extract, Transform, Load) processes.
+              
+            </p>
+            <p style="text-align: center">
+              <a class="button" href="#about">Read more</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ppa" id="portfolio">
+      <div class="container">
+          <h1 class="title1" data-aos="fade-down">My <span class="meme">Work</span></h1>
+          <div class="worklist">
+              <div class="work" data-aos="zoom-in-up">
+                  <img src="images/img1.jpg" width="100%" height="100%">
+              <div class="layer">
+                  <h3>
+                      <strong>E-Commerce website</strong>
+                      
+                  </h3>
+                  <p>
+                      This App Connect you to Skillful People around the world.Download it from Playstore!
+                  </p>
+                  <a href="#"><i class="fas fa-external-link-alt "></i></a>
+              </div></div>
+              <div class="work" data-aos="zoom-in-up">
+                  <img src="images/img2.png" width="100%" height="100%">
+                  <div class="layer">
+                      <h3>
+                        <strong>Gaming Website</strong> 
+                      </h3>
+                      <p>
+                          This App Connects you to talented People around the world.Download it from Playstore!
+                      </p>
+                      <a href="#"><i class="fas fa-external-link-alt "></i></a>
+                  </div>
+             
+          </div>
+          <div class="work" data-aos="zoom-in-up">
+              <img src="images/img3.webp"width="100%" height="100%">
+              <div class="layer">
+                  <h3>
+                    <strong>Stocks/DataBase Integration</strong> 
+                  </h3>
+                  <p>
+                      This App Connects you to talented People around the world.Download it from Playstore!
+                  </p>
+                  <a href="#"><i class="fas fa-external-link-alt "></i></a>
+              </div>
+          </div>
+          </div>
+      <a href="#Contact"  class="btn">Contact Now!</a>
+    </div>
+    <div class="ddd" id="Contact">
+      <h1 class="cmp" data-aos="fade-in">Contact <span class="meme">Me</span></h1>
+      <form name="submit-to-google-sheet" data-aos="zoom-in">
+        <div class="input-group">
+          <input type="text" name="Name" id="name" required>
+          <label for="name" ><i class="fa-solid fa-user"></i></i> Name</label>
+        </div>
+        <div class="input-group">
+          <input type="text" name="Number" id="number" required>
+          <label for="number"><i class="fa-solid fa-phone-square-alt"></i>Phone Number</label>
+        </div>
+        <div class="input-group">
+          <input type="email" name="Email" id="Email" required>
+          <label for="Email">Email-ID</label>
+        </div>
+        <div class="input-group">
+          <textarea id="message" name="Message" rows="8"></textarea>
+          <label for="Message">Your Message</label>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+      <ul class="social-icons">
+        <li><a href="https://www.instagram.com/" target="_blank" onclick="window.open('https://www.instagram.com/'); return false;"><img src="images/modern-badge-logo-instagram-icon_578229-124.avif" alt="Instagram"></a></li>
+        <li><a href="https://www.linkedin.com/" target="_blank" onclick="window.open('https://www.linkedin.com/'); return false;"><img src="images/LinkedIn_logo_initials.png" alt="LinkedIn"></a></li>
+        <li><a href="https://www.facebook.com/" target="_blank" onclick="window.open('https://www.facebook.com/'); return false;"><img src="images/Facebook_Logo_2023.png" alt="Facebook"></a></li>
+        <li><a href="https://twitter.com/" target="_blank" onclick="window.open('https://twitter.com/'); return false;"><img src="images/png-clipart-twitter-twitter-thumbnail.png" alt="Twitter"></a></li>
+    </ul>
+    
+    </div>
+
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({ offset: 300, duration: 1400 });
+    </script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwKTVPv-CAR5OFGLh7ZoN7ayHbg0FDtEKZqYkDyXsSFpzHEgtQhr4-uKNv-MbpmnuJB8Q/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+  </body>
+</html>
