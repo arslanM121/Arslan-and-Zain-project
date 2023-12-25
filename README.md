@@ -22,9 +22,12 @@ Navigation: The website includes a navigation bar with links to different sectio
 Home Section: A hero section introducing Arslan Malik with a background image and a call-to-action for newsletter subscription.
 
 About Me Section: Details about Arslan's background, skills, experience, and education. It includes a tabbed interface for organizing information.
-
 Services Section: Highlights Arslan's services as a Full Stack Developer. Each service is presented in a card format with an icon, title, and description.
-
 Portfolio Section: Showcases Arslan's work with images and descriptions. Each project is presented in a card format.
-
 Contact Section: Provides a contact form for users to reach out to Arslan. Social media icons are also included.
+
+Acknowledgments
+The website uses the AOS library for smooth scroll animations.
+Font Awesome provides icons used throughout the website.
+Google Sheets API is utilized for form submissions.
+
